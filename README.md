@@ -3,8 +3,7 @@
 Static copy of Decko's Homepage to play with color schemes.
 
 All the css is in `site.css.scss`. It imports `scheme1.scss`. 
-There is currently no better way to maintain different schemes than creationg new scheme scss files and changing the import command in
-`site.css.scss`.  
+There is currently no better way to maintain different schemes than creating new scheme scss files and changing the file name in the import command in `site.css.scss` (in line 14918 :scream:)
 
 ## developer setup
 The site is developed with [Middleman](https://middlemanapp.com). It depends on Ruby and the 
