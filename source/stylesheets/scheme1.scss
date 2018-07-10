@@ -1,0 +1,23 @@
+body {
+  background-color: #553285 !important;
+}
+
+body .jumbotron {
+  # background-color: #F2EFDF !important;
+}
+
+.bg-light {
+  background-color: #17607D;
+}
+
+[id^='svg-card-'] { // animals
+  fill: $secondary;
+}
+
+[id^='svg-card-'] use{ // all cards
+  fill: #009393;
+}
+
+[id^='svg-card-']:nth-child(even) use { // even cards
+  fill: #f5f3dc;
+}
